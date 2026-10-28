@@ -587,6 +587,10 @@ p{margin:0 0 18px}
 .notfound{min-height:calc(100vh - 128px);display:flex;align-items:center}
 .notfound .big{font-family:var(--ff-head);font-size:140px;line-height:1;color:var(--gold);margin:0 0 10px}
 
+.fbottom{align-items:center}
+.fbottom .credit a{color:var(--gold);font-weight:600}
+.fbottom .credit a:hover{color:var(--gold-lt);text-decoration:underline}
+
 /* in-page anchors land below the sticky header */
 section[id],[id="medical"]{scroll-margin-top:96px}
 @media (max-width:767px){section[id],[id="medical"]{scroll-margin-top:78px}}
